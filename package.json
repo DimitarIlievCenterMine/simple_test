@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify index.js > bundle.js -t hbsfy"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/DimitarIlievCenterMine/simple_test#readme",
   "dependencies": {
-    "precompile": "git+ssh://git@github.com/DimitarIlievCenterMine/widget.git"
+    "handlebars-loader": "^1.1.4",
+    "hbsfy": "^2.4.1",
+    "precompile": "git+ssh://git@github.com/DimitarIlievCenterMine/widget.git",
+    "webpack": "^1.12.13"
   }
 }
