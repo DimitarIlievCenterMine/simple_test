@@ -20,6 +20,7 @@
     "handlebars-loader": "^1.1.4",
     "hbsfy": "^2.4.1",
     "precompile": "git+ssh://git@github.com/DimitarIlievCenterMine/widget.git",
+    "underscore": "^1.8.3",
     "webpack": "^1.12.13"
   }
 }
